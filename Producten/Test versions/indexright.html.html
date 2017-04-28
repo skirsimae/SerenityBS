@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>Products</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"> 
+<link rel="stylesheet" type="text/css" href="js/main.js">
+<body>
+
+<div class="w3-container">
+  <!-- <table align="center"> -->
+            <!-- <tr> -->
+                <!-- <th colspan="4">Products</th> -->
+            <!-- </tr> -->
+  <!-- </table> -->
+</div>
+
+
+<div class="w3-row-padding">
+
+  <div class="w3-container w3-third">
+    <figure>
+    <img src="img/masque.png" style="width:30%;cursor:pointer" 
+     onclick="onClick(this)" class="w3-hover-opacity">
+      <figcaption"> 
+        <h4>Clarifying Clay Masque</h4> 
+        <p>Purifying Clay Masque treatment that decongests pores and removes excess oil without drying the skin.</p>
+      </figcaption">
+    </figure>
+  </div>
+
+  <div class="w3-container w3-third">
+    <figure>
+    <img src="img/toner.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+      <figcaption>
+        <h4>Equalizing Toner</h4>
+        <p>Toner that helps diminish the look of pores, suitable for all skin types.</p>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="w3-container w3-third">
+    <img src="img/resveratrol.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+      <div class="caption">
+        <h4>Resveratol B E</h4>
+        <p>Night concentrate that targets the visible signs of skin ageing.</p>
+      </div>
+  </div>
+
+  <div class="w3-container w3-third">
+    <img src="img/face.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+      <div class="caption">
+        <h4>Face Cream</h4>
+        <p>Cream for ageing skin.</p>
+      </div>
+  </div>
+
+  <div class="w3-container w3-third">
+    <img src="img/neutralizer.png" style="width:30%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+      <div class="caption">
+        <h4>Redness Neutralizer</h4>
+        <p>Light gel cream that reduces visible skin redness and reinforces the skin's barrier function.</p>
+      </div>
+  </div>
+
+  <div class="w3-container w3-third">
+    <img src="img/serum.png" style="width:30%;cursor:pointer" 
+    onclick="onClick(this)" class="w3-hover-opacity">
+      <div class="caption">
+        <h4>Serum 10</h4>
+        <p>Combines 10% L-ascorbic acid wutg ferulic acid and helps to reduce the appearance of signs of ageing.</p>
+      </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-container w3-third">
+      <img src="img/feet.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Sole Balm</h4>
+          <p>Luxurious skincare for the feet.</p>
+        </div>
+    </div>
+
+    <div class="w3-container w3-third">
+      <img src="img/duvet.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Duvet</h4>
+          <p>Confirming body cream.</p>
+        </div>
+    </div>
+  </div>
+
+    <div class="w3-container w3-third">
+      <img src="img/scrub.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Sugar Buff</h4>
+          <p>Combines 10% L-ascorbic acid wutg ferulic acid and helps to reduce the appearance of signs of ageing.</p>
+        </div>
+    </div>
+
+
+    <div class="w3-container w3-third">
+      <img src="img/hands.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Palm Balm</h4>
+          <p>Luxurious skincare for the hands.</p>
+        </div>
+    </div>
+
+    <div class="w3-container w3-third">
+      <img src="img/balm.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Feet Balm</h4>
+          <p>Soothing balm for aching feet & limbs.</p>
+        </div>
+    </div>
+
+    <div class="w3-container w3-third">
+      <img src="img/nails.png" style="width:30%;cursor:pointer" 
+      onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="caption">
+          <h4>Nailpolish Kit</h4>
+          <p>Naipolish kit with 8 shades.</p>
+        </div>
+    </div>
+
+  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img id="img01" style="width:50%">
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+            
+</body>
+</html>

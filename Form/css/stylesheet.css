@@ -1,0 +1,134 @@
+/* nav bar */
+
+#mainNav {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px; }
+
+  /* logo nav bar */
+  #mainNav .navbar-brand {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fdcc52; 
+    padding-left: 10px;}
+    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+      color: #fcbd20; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    color: #222222;
+    padding: 8px 10px; }
+  #mainNav .navbar-nav > li > a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px; }
+    #mainNav .navbar-nav > li > a.active {
+      color: #fdcc52 !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li > a.active:hover {
+        background-color: transparent; }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+            font-weight: bold; }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: #fdcc52; }
+  @media (min-width: 992px) {
+    #mainNav {
+      background-color: transparent;
+      border-color: transparent; }
+      #mainNav .navbar-brand {
+        color: fade(white, 70%); }
+        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+          color: white; }
+      #mainNav .navbar-nav > li > a,
+      #mainNav .navbar-nav > li > a:focus {
+          color: #7F6141; }
+        #mainNav .navbar-nav > li > a:hover,
+        #mainNav .navbar-nav > li > a:focus:hover {
+          color: #fdcc52; }
+      #mainNav.navbar-shrink {
+        background-color: #7F6141;
+        border-color: rgba(34, 34, 34, 0.1); }
+        #mainNav.navbar-shrink .navbar-brand {
+            color: #fdcc52; }
+       /* hover logo color */  
+         #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+            color: white; }
+        #mainNav.navbar-shrink .navbar-nav > li > a,
+        #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+          color: #222222; }
+          #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+          /* hover menu item color */
+          #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+            color: #fdcc52; } }
+
+
+body {
+    background-color: #FFC282;
+    background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+    padding-bottom: 100px;
+    width: auto;
+    margin: auto;
+
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    margin-top: 0px; 
+    margin-bottom: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #f0b199;
+
+}
+textarea[id=subject] {
+    height: 80px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px;
+    color: #403020;
+    font-weight: bold;
+}
+
+.container {
+    border-radius: 7px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    width: 550px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 80%;  
+
+}
+
+button {
+    background-color:#f09676;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+

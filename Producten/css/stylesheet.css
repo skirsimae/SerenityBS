@@ -1,0 +1,155 @@
+body {
+    width: auto;
+    margin: auto;
+    background: none;
+}
+
+/*div.container {*/
+    /*width: 1000px;*/
+    /*margin-right: 50px;*/
+    /*margin-left: 50px;*/
+/*}*/
+
+tbody {
+  background: #FFC282; 
+  background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
+}
+
+div.caption {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 85%;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+table {
+    width: 100%;
+    margin-top: 100px;
+    /*margin-left: 130px;*/
+    align-items: left;
+    float: left;
+    /*border-color: transparent;*/
+}
+
+td {
+    padding: 30px;
+    text-align: center;
+    vertical-align: center;
+    border-color: transparent;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 100%;
+    text-align: center;
+}
+
+/* universal style */
+html,
+body {
+  height: 100%;
+  width: 100%; 
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif'; 
+}
+
+
+
+/* navbar */
+
+#mainNav {
+  background-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px; 
+    padding-left: 10%;
+}
+
+  /* logo nav bar */
+  #mainNav .navbar-brand {
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fdcc52; 
+    padding-left: 10px;}
+    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+      color: #fcbd20; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    color: #222222;
+    padding: 8px 10px; }
+  #mainNav .navbar-nav > li > a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px; }
+    #mainNav .navbar-nav > li > a.active {
+      color: #fdcc52 !important;
+      background-color: transparent; }
+      #mainNav .navbar-nav > li > a.active:hover {
+        background-color: transparent; }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+            font-weight: bold; }
+    #mainNav .navbar-nav > li > a:hover,
+    #mainNav .navbar-nav > li > a:focus:hover {
+      color: #fdcc52; }
+  @media (min-width: 992px) {
+    #mainNav {
+      background-color: #7F6141;
+      border-color: transparent; }
+      #mainNav .navbar-brand {
+        color: fade(white, 70%); }
+        #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+          color: white; }
+      #mainNav .navbar-nav > li > a,
+      #mainNav .navbar-nav > li > a:focus {
+          color:  #403020; }
+        #mainNav .navbar-nav > li > a:hover,
+        #mainNav .navbar-nav > li > a:focus:hover {
+          color: #fdcc52; }
+      #mainNav.navbar-shrink {
+        background-color: #7F6141;
+        border-color: rgba(34, 34, 34, 0.1); }
+        #mainNav.navbar-shrink .navbar-brand {
+            color: #fdcc52; }
+       /* hover logo color */  
+         #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+            color: white; }
+        #mainNav.navbar-shrink .navbar-nav > li > a,
+        #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+          color: #222222; }
+          #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+          /* hover menu item color */
+          #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+            color: #fdcc52; } }
+
+
+footer {
+  background-color: #222222 ;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center; }
+footer p {
+  font-size: 12px;
+  margin: 0; }
+footer ul {
+  margin-bottom: 0; }
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3); }
+footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+  text-decoration: none; }
