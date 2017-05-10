@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="js/main.js">
+<head>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <th colspan="4">Products</th>
+        </tr>
+    </table>
+
+    <div class="img">
+        <img src="img/masque.png" alt="Masque" width="300" height="200">
+        <div class="desc"<h4>Clarifying Clay Masque</h4> 
+            <p>Purifying Clay Masque treatment that decongests pores and removes excess oil without drying the skin</p> 
+        </div>
+    </div>
+    
+
+    <div class="img">
+        <img src="img/toner.png" alt="Toner" width="300" height="200">
+        <div class="desc"<h4>Equalizing Toner></h4> 
+            <p>Toner that helps diminish the look of pores, suitable for all skin types.</p>> 
+            
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="img/resveratrol.png" alt="Toner" width="300" height="200">
+        <div class="caption"<h4>Resveratol B E></h4> 
+            <p>Night concentrate that targets the visible signs of skin ageing.</p>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="img/face.png" alt="Toner" width="300" height="200">
+        <div class="caption"><h4>Face Cream</h4> 
+            <p>Cream for ageing skin.</p>> 
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="img/neutralizer.png" alt="Toner" width="300" height="200">
+        <div class="caption"><h4>Redness Neutralizer</h4> 
+            <p>Light gel cream that reduces visible skin redness and reinforces the skin's barrier function.</p>  
+        </div>
+    </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
